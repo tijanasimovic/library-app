@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<!-- Prilagodi putanju do .mdf ako ga attachuješ u solution folder -->
+		<add name="cs"
+			 connectionString="Data Source=(localdb)\ProjectModels;Initial Catalog=Biblioteka;"
+			 providerName="System.Data.SqlClient" />
+	</connectionStrings>
+</configuration>
